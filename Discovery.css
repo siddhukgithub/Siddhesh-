@@ -1,0 +1,612 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* =====================main================ */
+.main{
+    height: auto;
+    width: 100%;
+    background-color:whitesmoke;
+}
+/* ==========================================nav========================================== */
+.nav{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(65, 134, 134);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+/* ===============================================box=========================== */
+.nav .box{
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+    margin-left: 105px;
+    line-height: 50px;
+    margin-top: 10px;
+    box-shadow: 5px  5px 7px black;
+}
+.nav h2{
+    position: absolute;
+    left: 150px;
+    line-height: 50px;
+    font-family: cursive;
+}
+/* =====================================ul li================================== */
+.nav ul{
+    line-height: 50px;
+}
+.nav ul li{
+    float: left;
+    list-style: none;
+    width: 120px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+/* ======================================circle========================== */
+.nav .circ{
+    height: 35px;
+    width: 35px;
+    border: 1px solid wheat;
+    box-shadow: inset 5px 5px 5px 5px white;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-right: 50px;
+    margin-top: 5px;
+}
+/* ========================================HEAD=============================================== */
+.head{
+    height: 400px;
+    width: 100%;
+    background-image: linear-gradient(to top,rgb(46, 46, 133),rgb(65, 134, 134));
+    overflow: hidden;
+}
+
+.head h1{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    font-size: 45px;
+}
+.head p{
+    text-align: center;
+    margin-top: 10px;
+    font-family: cursive;
+    font-size: 15px;
+}
+.head p a{
+    text-decoration: none;
+}
+#inp{
+    height:70px;
+    width: 650px;
+    background-color: #fff;
+    margin-left: 350px;
+    margin-top: 20px;
+    position: relative;
+    border-radius: 65px;
+
+}
+#inp #btns1{
+    position: absolute;
+    top: 11px;
+    right: 9px;
+    padding: 15px 30px;
+    border-radius: 65px;
+    border: none;
+    background-color: rgb(58, 154, 154);
+    color: white;
+    font-family: cursive;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+#inp input{
+    height: 100%;
+    width: 100%;
+    border-radius: 65px;
+    border: none ;
+    color: black;
+    font-size: 15px;
+    padding-left: 20px;
+}
+/* ================================================cont1================================ */
+.cont1{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(58, 154, 154);
+    position: relative;
+    border-bottom-left-radius: 65px;
+    border-bottom-right-radius: 65px;
+}
+.cont1_sec1{
+    height: 400px;
+    width: 350px;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    position: absolute;
+    top: -80px;
+    left: 150px;
+    overflow: hidden;
+    box-shadow: 2px 2px 7px black;
+}
+.cont1_sec1_frt1{
+    position: absolute;
+    top: 20px;
+    font-size: 22px;
+    color: white;
+    right: 25px;
+    height: 25px;
+    width: 30px;
+    background-color: rgb(17, 109, 246);
+    text-align: center;
+    
+}
+.cont1_sec1 h3{
+    font-family: cursive;
+    color: black;
+    margin-top: 15px;
+    margin-left: 19px;
+}
+.cont1_sec1 p{
+    height: 150px;
+    font-family: cursive;
+    color: gray;
+    text-align: justify;
+    padding: 20px;
+}
+.cont1_sec1 img{
+    height: 50%;
+    width: 100%;
+}
+
+
+/* =============================cont1_sec2======================= */
+.cont1_sec2{
+    height: 400px;
+    width: 550px;
+    background: linear-gradient(to top,rgba(20, 9, 82, 0.8),rgba(9, 82, 82, 0.8)), url(https://st.depositphotos.com/2169717/3999/i/950/depositphotos_39998783-stock-illustration-financial-business-chart-and-graphs.jpg) no-repeat;
+    background-size: 100% 100%;
+    /* background-color: #fff; */
+    position: absolute;
+    top: -80px;
+    right: 240px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 7px black;
+
+
+}
+.cont1_sec1_frt2{
+    position: absolute;
+    top: 20px;
+    font-size: 22px;
+    color: white;
+    right: 25px;
+    height: 25px;
+    width: 30px;
+    background-color: rgb(131, 5, 249);
+    text-align: center;
+    
+}
+.cont1_sec2 h3{
+    font-family: cursive;
+    color: #fff;
+    margin-top: 25px;
+    margin-left: 19px;
+}
+.cont1_sec2 p{
+    font-family: cursive;
+    width: 100%;
+    height: 120px;
+    margin-top: 20px;
+    padding:0 20px;
+    color: white;
+}
+.cont1_sec2 #btn2p{
+    padding: 8px 27px;
+    border: none;
+    background-color: rgb(58, 154, 154);
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+    border-radius: 65px;
+    margin-left: 14px;
+    cursor: pointer;
+}
+.cont1_sec2 h4{
+    font-family: cursive;
+    color: #fff;
+    margin-top: 120px;
+    margin-left: 30px;
+}
+.cont1_sec2 h4 i{
+    color:#fff;
+    background-color: rgb(58, 154, 154);
+    padding: 5px;
+    border-radius: 50%;
+}
+/* ===============================================flex_cont2==================== */
+.flex_cont2{
+    height: 600px;
+    width: 100%;
+    background-color: whitesmoke;
+    /* background-color: darkblue; */
+    overflow: hidden;
+   
+}
+.flex_cont2 h1{
+    text-align: center;
+    margin-top: 30px;
+    font-family: cursive;
+}
+/* ======================nav2=================== */
+.cont2_nav2{
+    height: 50px;
+    width: 100%;
+    background-color:transparent;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont2_nav2 ul{
+    line-height: 50px;
+}
+.cont2_nav2 ul li{
+    float: left;
+    list-style:none;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+.cont2_nav2 ul li:hover{
+    color: rgb(46, 46, 133);
+    border-bottom: 3px solid rgb(46, 46, 133);
+}
+/* ===================================================flex section========================== */
+.flex-section{
+    height: 450px;
+    width: 100%;
+    /* background-color: darkblue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.sect{
+    height: 80%;
+    width: 400px;
+    /* border: 2px solid black; */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px gray;
+    /* transform: scaleX(1); */
+    transition: all 1s ease;
+}
+.sect:hover{
+    transform: scale(0.8);
+}
+.flex-section .sect img{
+    height: 60%;
+    width: 100%;
+}
+.sect h2{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: cursive;
+}
+
+.sect p{
+    font-family: cursive;
+    color: gray;
+    height: 78px;
+    /* padding: 0px, 20px, 0px, 20px; */
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+/* ==========================================cont 3=================================== */
+.cont3{
+    height:700px;
+    width: 100%;
+    /* background-color: darkblue; */
+    background: linear-gradient(to bottom ,rgba(46, 46, 133,.9),rgba(65, 134, 134,.9)) ,url(https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/1972/2017/07/04174910/HackTX_2012_Student_programmers_working-768x576.jpg) no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: relative;
+   
+}
+.cont3 h1{
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+}
+.cont3 .sid{
+    height: 200px;
+    width: 800px;
+    margin:15px 100px 20px 350px;
+}
+.cont3 .sid h2{
+    color: white;
+    font-family: cursive;
+}
+.cont3 .sid p{
+    color: rgb(175, 172, 172);
+    font-family: cursive;
+    margin-top: 10px;
+}
+/* ==========side icon start here =========== */
+.cont3 .icon{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    background-color:  rgb(58, 154, 154);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 10px white;
+
+}
+.cont3 .icn1{
+    top: 78px;
+    left: 253px 
+}
+.cont3 .icn2{
+    top: 303px;
+    left: 253px 
+}
+.cont3 .icn3{
+    top: 516px;
+    left: 253px 
+}
+.cont3 .icon i{
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 50%;
+    color: white;
+}
+.cont3 .stick{
+    height: 183px;
+    width: 5px;
+    background-color: rgb(58, 154, 154);
+}
+.cont3 .stic1{
+    position: absolute;
+    top: 136px;
+    left: 280px;
+    box-shadow: 0px 2px 10px white;
+}
+.cont3 .stic2{
+    position: absolute;
+    top: 360px;
+    left: 280px;
+    height: 157px;
+    box-shadow: 0px 2px 10px white;
+}
+/* ======================================================cont4===================================== */
+.cont4{
+    height: 500px;
+    width: 100%;
+    /* background-color: darkblue; */
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cont4 .ccc{
+    height: 100%;
+    width: 600px;
+    background-color: white;
+}
+.cont4 .ccc h1{
+    font-family: cursive;
+    color: black;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.cont4 .ccc1 img{
+    height: 60%;
+    width: 100%;
+}
+/* =======================ccc2=========================== */
+.cont4 .ccc2 h2{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: cursive;
+    background-color: rgba(9, 172, 172,.2);
+    padding: 8px;
+    border-radius: 10px;
+    position: relative;
+}
+.cont4 .ccc2 p{
+    font-family: cursive;
+    color: gray;
+    height: 100px;
+    margin-left: 10px;
+    display: none;
+}
+/* =====btn===== */
+.btn{
+    position: absolute;
+    top: 8px;
+    right: 20px;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    /* font-family: cursive; */
+}
+/* ============================================cont5===================================== */
+.cont5{
+    height: 400px;
+    width: 100%;
+    /* background-color: darkblue; */
+    background-color: rgba(163, 160, 160,.2);
+}
+.cont5 .h11{
+    height: 20%;
+    width: 100%;
+    /* background-color: darkblue; */
+    overflow: hidden;
+}
+.cont5 .h11 h1{
+    text-align: center;
+    font-family: cursive;
+    margin-top: 20px;
+}
+/* ========frame========== */
+.cont5 .frame{
+    height: 80%;
+    width: 100%;
+    /* background-color: darkred; */
+    display: flex;
+}
+.cont5 .frame .fra{
+    height: 90%;
+    width: 40%;
+    background-color: transparent;
+    /* border: 3px solid rgb(17, 109, 246); */
+    border-radius: 10px;
+
+
+}
+.cont5 .frame .fra #ghatkopar{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    /* border: 3px solid rgb(17, 109, 246); */
+}
+/* ==========had==== */
+
+.cont5 .frame .had{
+    height: 90%;
+    width: 30%;
+    /* background-color: darkblue; */
+    padding: 20px;
+}
+.cont5 .frame .had h2{
+    margin-top: 10px;
+    font-family: cursive;
+}
+.cont5 .frame .had p{
+    font-family: cursive;
+    color: gray;
+}
+.cont5 .frame .had h3{
+    margin-top: 10px;
+    font-family: cursive;
+}
+.cont5 .frame .had h3 span{
+    color: rgb(46, 46, 133);
+}
+
+.cont5 .frame .dub{
+    height: 90%;
+    width: 30%;
+    /* background-color: yellow; */
+    padding: 20px;
+}
+.cont5 .frame .dub h2{
+    margin-top: 10px;
+    font-family: cursive;
+}
+.cont5 .frame .dub p{
+    font-family: cursive;
+    color: gray;
+}
+.cont5 .frame .dub h3{
+    margin-top: 10px;
+    font-family: cursive;
+}
+.cont5 .frame .dub h3 .span{
+    color: rgb(6, 236, 129);
+}
+/* =========================================foot=============================== */
+.foot{
+    height: 400px;
+    width: 100%;
+    border-bottom: 10px solid rgb(58, 154, 154);
+    display: flex;
+}
+.foot_child{
+    height: 100%;
+    width: 25%;
+    /* border: 2px solid black; */
+}
+.foot1{
+    position: relative;
+}
+.foot1 .box{
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    margin-top: 80px;
+    margin-left: 80px;
+    box-shadow: 9px 3px 6px black
+
+}
+.foot1 h2{
+    position: absolute;
+    font-family: cursive;
+    top: 80px;
+    left: 120px;
+}
+.foot2{
+    padding: 70px;
+}
+.foot2 h2{
+    color: rgb(10, 80, 47);
+    font-family: cursive;
+}
+.foot2 h5{
+    color: rgba(6, 236, 129,.6);
+    margin-top: 20px;
+}
+.foot3{
+    padding: 70px;
+}
+.foot3 h2{
+    color: rgb(10, 80, 47);
+    font-family: cursive;
+}
+.foot3 h5{
+    color: rgba(6, 236, 129,.6);
+    margin-top: 20px;
+}
+.foot4{
+    padding: 70px;
+
+}
+.foot4 button{
+    padding: 10px 30px;
+    border: none;
+    background-color: rgb(6, 236, 129);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+} 
+.foot4 p{
+    margin-top: 20px;
+    font-family: cursive;
+    color: gray;
+}
+
+
+
+
+
+
+
